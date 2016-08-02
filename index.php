@@ -10,3 +10,5 @@ require 'config/paths.php';
 require 'config/database.php';
 
 $app = new Bootstrap();
+
+// test
