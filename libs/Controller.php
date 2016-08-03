@@ -10,7 +10,7 @@ class Controller {
         public function loadModel($name){
                 
             $name = 'models/'.$name.'_model.php';
-            
+            // OK 
             if(file_exists($path)) {
                 require 'models/'.$name.'_model.php';
                 
